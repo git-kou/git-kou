@@ -1,0 +1,437 @@
+body {
+    min-width: 1000px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+li {
+    list-style:none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.anc {
+    display:block;
+    padding-top:120px;
+    margin-top:-120px;
+}
+
+.tyui {
+    margin-top:150px;
+}
+
+header {
+    background-color:#FF6633;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.header-logo h1{
+    font-size:40px;
+    margin-left:30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header-list li {
+    margin-left:30px;
+}
+
+.header-list-flex {
+    display:flex;
+    padding-left:0;
+    margin-right:15px;
+}
+
+.header-list-flex a:hover {
+    color:white;
+}
+
+/* ハンバーガーメニューの線 */
+.han span {
+    width: 30px;
+    height: 2px;
+    background-color: #000;
+    position: relative;
+    transition: ease .4s;
+    display: block;
+  }
+  
+  .han span:nth-child(1) {
+    top: 0;
+  }
+  
+  .han span:nth-child(2) {
+    margin: 8px 0;
+  }
+  
+  .han span:nth-child(3) {
+    top: 0;
+  }
+  
+  
+  /* ハンバーガーメニュークリック後のスタイル */
+  .han.active {
+    transform: translateX(0);
+  }
+  
+  .han.active span:nth-child(1) {
+    top: 5px;
+    transform: rotate(45deg);
+  }
+  
+  .han.active span:nth-child(2) {
+    opacity: 0;
+  
+  }
+  
+  .han.active span:nth-child(3) {
+    top: -15px;
+    transform: rotate(-45deg);
+  }
+
+  @media(min-width:700px) {
+    .han {
+        display:none;
+    }
+  }
+
+.header-media {
+    text-align:center;
+    display:none;
+}
+
+.header-media ul {
+    padding-left:0;
+    margin:0;
+}
+
+.header-media li {
+    border-bottom:1px solid black;
+    margin-bottom:0;
+}
+
+.header-media li:first-child {
+    border-top:1px solid black;
+}
+
+.header-media a {
+    display:block;
+    padding:20px 0;
+}
+
+.header-media a:hover {
+    background-color:yellow;
+}
+
+
+#main-top {
+    padding-top:150px;
+    padding-bottom:100px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#main-top h1 {
+    font-size:5vw;
+    margin-left:30px;
+}
+
+.main-top-img img {
+    width:800px;
+}
+
+#nayami {
+    padding-top:10px;
+    padding-bottom:30px;
+}
+
+#nayami h1 {
+    text-align:center;
+    font-size:30px;
+}
+
+.nayami-flex {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color:#FF6633;
+}
+
+.item {
+    width:45%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color:white;
+    margin:19px 19px;
+    border-radius: 5px;
+}
+
+.item img {
+    width:100px;
+    height:100px;
+}
+
+.kara {
+    width:50%;
+}
+
+.top {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:4vw;
+    text-align:center;
+    width:900px;
+    margin:0 auto;
+}
+
+#kousi {
+    padding-top:90px;
+    padding-bottom:120px;
+    width:900px;
+    margin:0 auto;
+}
+
+#kousi img {
+    width:400px;
+    float:right;
+    margin-left:30px;
+}
+
+#karikyu {
+    margin-top:100px;
+    margin-bottom:100px;
+    padding-top:20px;
+    padding-bottom:30px;
+    clear:both;
+    background-color:#FFFFAA;
+}
+
+.kari {
+    display:flex;
+    justify-content: center;
+}
+
+.kari-box {
+    text-align:center;
+    background-color:white;
+    margin:30px;
+    padding:30px;
+}
+
+table {
+    border-collapse:collapse;
+}
+
+tr,th,td {
+    padding:20px 5px;
+}
+
+th {
+    background-color:#99FFCC;
+}
+
+#accsess {
+    padding-top:30px;
+    padding-bottom:70px;
+}
+
+.ac {
+    width:900px;
+    margin:30px auto 0 auto;
+    display:flex;
+}
+
+iframe {
+    width:500px;
+    margin-left:40px;
+}
+
+#otoiawase {
+    padding-top:30px;
+    padding-bottom:60px;
+}
+
+form {
+    padding-top:40px;
+    padding-bottom:40px;
+    width:400px;
+    margin:auto;
+}
+
+.name {
+    width:200px;
+}
+
+.otoi {
+    width:400px;
+    height:200px;
+    overflow: scroll;
+}
+
+.btn {
+    width:150px;
+    display:block;
+    margin:auto;
+    height:30px;
+    background-color:blue;
+    color:white;
+    border-radius:5px;
+}
+
+.btn:hover {
+    background-color:white;
+    color:blue;
+    cursor: pointer;
+}
+
+footer {
+    background-color:#FF6633;
+}
+
+.footer-list {
+    width:700px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-list h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:40px;
+}
+
+.footer-list li {
+    margin-bottom:10px;
+}
+
+.footer-logo {
+    text-align:center;
+    font-size:80%;
+    padding-bottom:20px;
+}
+
+.footer-ul {
+    padding-left:0;
+}
+
+.footer-ul a:hover {
+    color:white;
+}
+
+@media(max-width:700px) {
+    body {
+        min-width:initial;
+    }
+
+    .header-list {
+        display:none;
+    }
+
+    .han {
+        margin-right:30px;
+    }
+
+    #main-top {
+        flex-direction: column;
+    }
+
+    #main-top h1 {
+        font-size:50px;
+        text-align:center;
+    }
+
+    .nayami-flex {
+        flex-direction: column;
+    }
+
+    .item {
+        width:90%;
+        height:150px;
+    }
+
+    .kara {
+        width:initial;
+    }
+
+    .top {
+        font-size:40px;
+        width:initial;
+    }
+
+    #kousi {
+        width:initial;
+        padding-bottom:10px;
+    }
+
+    #kousi h2 {
+        text-align:center;
+    }
+
+    #kousi img {
+        float:none;
+    }
+
+    .kari {
+        flex-direction: column;
+    }
+
+    .kari-box {
+        width:80%;
+        margin:30px auto;
+    }
+
+    table {
+        margin:auto;
+    }
+
+    .ac {
+        flex-direction: column;
+        width:initial;
+    }
+
+    iframe {
+        width:100%;
+        margin-left:0;
+    }
+
+    .footer-list {
+        width:initial;
+        flex-direction: column;
+        align-items: initial;
+        text-align:center;
+    }
+
+    .footer-list li {
+        border-bottom:1px solid black;
+        margin-bottom:0;
+    }
+
+    .footer-list li:first-child {
+        border-top:1px solid black;
+    }
+
+    .footer-list a {
+        display:block;
+        padding:20px 0;
+    }
+
+    .footer-list a:hover {
+        color:initial;
+        background-color:yellow;
+    }
+}
