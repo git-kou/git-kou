@@ -336,6 +336,7 @@ footer {
 @media(max-width:700px) {
     body {
         min-width:initial;
+        width:100%;
     }
 
     .header-list {
@@ -379,6 +380,10 @@ footer {
     }
 
     #kousi h2 {
+        text-align:center;
+    }
+
+    .kousi-img {
         text-align:center;
     }
 
