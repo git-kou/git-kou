@@ -336,7 +336,6 @@ footer {
 @media(max-width:700px) {
     body {
         min-width:initial;
-        width:100%;
     }
 
     .header-list {
@@ -389,6 +388,7 @@ footer {
 
     #kousi img {
         float:none;
+        margin-left:0;
     }
 
     .kari {
@@ -412,6 +412,18 @@ footer {
     iframe {
         width:100%;
         margin-left:0;
+    }
+
+    form {
+        width:95%;
+    }
+
+    .name {
+        width:60vw;
+    }
+
+    .otoi {
+        width:80vw;
     }
 
     .footer-list {
