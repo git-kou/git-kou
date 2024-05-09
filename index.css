@@ -268,7 +268,7 @@ iframe {
 form {
     padding-top:40px;
     padding-bottom:40px;
-    width:400px;
+    width:fit-content;
     margin:auto;
 }
 
@@ -412,10 +412,6 @@ footer {
     iframe {
         width:100%;
         margin-left:0;
-    }
-
-    form {
-        width:95%;
     }
 
     .name {
