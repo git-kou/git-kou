@@ -353,6 +353,7 @@ footer {
     #main-top h1 {
         font-size:50px;
         text-align:center;
+        margin-left:0;
     }
 
     .nayami-flex {
