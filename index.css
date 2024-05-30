@@ -244,6 +244,32 @@ th {
     background-color:#99FFCC;
 }
 
+#jiseki {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+#jiseki .top {
+    margin-bottom:30px;
+}
+
+.jise {
+    width:500px;
+    margin:0 auto;
+    padding:0 5px;
+    height:300px;
+    overflow-y: scroll;
+} 
+
+.jise p {
+    border-top:1px solid grey;
+    padding-top:10px;
+}
+
+.jise p:first-child {
+    border-top:none;
+}
+
 #accsess {
     padding-top:30px;
     padding-bottom:70px;
@@ -403,6 +429,11 @@ footer {
 
     table {
         margin:auto;
+    }
+
+    .jise {
+        width:90%;
+        padding:0 5px;
     }
 
     .ac {
