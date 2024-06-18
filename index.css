@@ -56,7 +56,6 @@ header {
     color:white;
 }
 
-/* ハンバーガーメニューの線 */
 .han span {
     width: 30px;
     height: 2px;
@@ -78,8 +77,6 @@ header {
     top: 0;
   }
   
-  
-  /* ハンバーガーメニュークリック後のスタイル */
   .han.active {
     transform: translateX(0);
   }
@@ -355,7 +352,7 @@ footer {
     color:white;
 }
 
-@media(max-width:700px) {
+@media(max-width:600px) {
     body {
         min-width:initial;
     }
