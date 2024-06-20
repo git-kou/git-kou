@@ -237,7 +237,7 @@ table {
     border-collapse:collapse;
 }
 
-tr,th,td {
+th,td {
     padding:20px 5px;
 }
 
@@ -347,6 +347,7 @@ footer {
 }
 
 .footer-logo {
+    margin:0;
     text-align:center;
     font-size:80%;
     padding-bottom:20px;
@@ -430,7 +431,12 @@ footer {
 
     .kari-box {
         width:80%;
+        padding:10px;
         margin:30px auto;
+    }
+
+    td,th {
+        padding:15px 1.5px;
     }
 
     table {
