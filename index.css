@@ -29,6 +29,7 @@ header {
     position:fixed;
     top:0;
     left:0;
+    right:0;
 }
 
 .header {
@@ -37,7 +38,7 @@ header {
     align-items:center;
 }
 
-.header-logo h1{
+.header-logo {
     font-size:40px;
     margin-left:30px;
     font-family: 'Times New Roman', Times, serif;
@@ -136,19 +137,19 @@ header {
 
 
 #main-top {
-    padding-top:150px;
+    padding-top:120px;
     padding-bottom:100px;
     display:flex;
     justify-content: space-between;
 }
 
 #main-top h1 {
-    font-size:5vw;
+    font-size:40px;
     margin-left:30px;
 }
 
 .main-top-img img {
-    width:800px;
+    width:700px;
 }
 
 #nayami {
