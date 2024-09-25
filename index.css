@@ -25,11 +25,7 @@ li {
 
 header {
     background-color:#FF6633;
-    width:100%;
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
+    width:max(1000px,100%);
 }
 
 .header {
@@ -137,7 +133,6 @@ header {
 
 
 #main-top {
-    padding-top:120px;
     padding-bottom:100px;
     display:flex;
     justify-content: space-between;
@@ -367,6 +362,14 @@ footer {
         min-width:initial;
     }
 
+    header {
+        width:100%;
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+    }
+
     .header-list {
         display:none;
     }
@@ -377,6 +380,7 @@ footer {
 
     #main-top {
         flex-direction: column;
+        padding-top:100px;
     }
 
     #main-top h1 {
